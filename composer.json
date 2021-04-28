@@ -1,0 +1,30 @@
+{
+    "name": "se/hobby",
+    "type": "hobby",
+    "description": "",
+    "authors": [
+        {
+            "name": "s.vokhmianin",
+            "email": "s.vokhmianin@gmail.com"
+        }
+    ],
+    "require": {
+        "php": "^5.6 || ^7.0",
+        "ext-mbstring": "*",
+        "psr/log": "^1.0"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "^5.5"
+    },
+    "autoload": {
+        "psr-4": {
+            "Hobby\\": "src/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Hobby\\Tests\\": "tests/"
+        }
+    }
+
+}
